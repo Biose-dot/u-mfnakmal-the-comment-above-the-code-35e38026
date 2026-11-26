@@ -4,6 +4,16 @@
 
 # The Comment Above the Code
 
-// WARNING: the bug on line 42 is load-bearing. Fix it and the checkout page dies in a country we don't ship to.
+The warning a developer leaves above a bug the whole system quietly
+depends on: a load-bearing bug on line 42, and a checkout page that
+dies in a country the shop does not even ship to. Nobody may touch it.
+
+## Entry
 
 > // WARNING: the bug on line 42 is load-bearing. Fix it and the checkout page dies in a country we don't ship to.
+
+## Run
+
+```sh
+python3 main.py   # writes the entry to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output)
+```
