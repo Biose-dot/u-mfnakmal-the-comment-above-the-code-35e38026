@@ -17,11 +17,12 @@ import os
 # 4. Fresh angle (criterion 4): not off-by-one, not 'who wrote this' — the joke is
 #    that the bug is structural, a load-bearing wall of the system nobody may touch.
 # 5. Economical (criterion 3): three clauses, each one doing work; nothing to trim.
+# REVISION v2: 'dies' is a punchier verb than 'breaks'; 'the checkout page' names the victim concretely; 'a country we don't ship to' is tighter and funnier than 'a timezone we don't even operate in' — the blast radius is both worldwide and impossible, which is the whole joke.
 # The parts below are joined with single spaces; the entry is one line.
 PARTS = {
     "marker": '// WARNING:',
     "confession": 'the bug on line 42 is load-bearing.',
-    "consequence": "Fix it and checkout breaks in a timezone we don't even operate in.",
+    "consequence": "Fix it and the checkout page dies in a country we don't ship to.",
 }
 
 

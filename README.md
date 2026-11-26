@@ -4,6 +4,6 @@
 
 # The Comment Above the Code
 
-// WARNING: the bug on line 42 is load-bearing. Fix it and checkout breaks in a timezone we don't even operate in.
+// WARNING: the bug on line 42 is load-bearing. Fix it and the checkout page dies in a country we don't ship to.
 
-> // WARNING: the bug on line 42 is load-bearing. Fix it and checkout breaks in a timezone we don't even operate in.
+> // WARNING: the bug on line 42 is load-bearing. Fix it and the checkout page dies in a country we don't ship to.
